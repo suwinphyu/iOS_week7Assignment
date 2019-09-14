@@ -77,13 +77,14 @@ extension ForYouViewController : UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigateToHouseDetailViewController(data: houseData?[indexPath.row] ?? HouseDetailVO())
+        navigateToHouseDetailViewController(data: houseData?[indexPath.row])
     }
 }
 
 extension ForYouViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return houseData?.count ?? 0
+       // return houseData?.count ?? 0
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -91,7 +92,7 @@ extension ForYouViewController : UITableViewDataSource {
        // cell.movie = HouseModel.shared().houseResponse.results?[indexPath.row] ?? HouseVO()
       //  cell.delegate = self
         
-       cell.mData = houseData?[indexPath.row]
+      // cell.mData = houseData?[indexPath.row]
         return cell
     }
 }

@@ -11,7 +11,7 @@ import UIKit
 
 extension UIViewController {
     
-    func navigateToHouseDetailViewController(data: HouseDetailVO) {
+    func navigateToHouseDetailViewController(data: HouseDetailVO?) {
         
         let storyboard = UIStoryboard(name: SharedConstants.Storyboard.SB_MAIN, bundle: Bundle.main)
         let vc = storyboard.instantiateViewController(withIdentifier: DetailHousingViewController.identifier) as? DetailHousingViewController

@@ -30,16 +30,20 @@ class DetailHousingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        guard let mData = mData else  {
+            return
+        }
 
-        hotelImgView.sd_setImage(with: URL(string: mData?.houseImageUrl ?? ""),                                   placeholderImage: #imageLiteral(resourceName: "img"))
-        lblAddress.text = mData?.address
-        lblPrice.text = "\(mData?.price)"
-        lblSquareFeet.text = "\(mData?.squareFeet)"
+        hotelImgView.sd_setImage(with: URL(string: mData.houseImageUrl ?? ""),                                   placeholderImage: #imageLiteral(resourceName: "img"))
+        lblAddress.text = mData.address
+        lblPrice.text = "\(mData.price)"
+        lblSquareFeet.text = "\(mData.squareFeet)"
         lblBedRoom.text = "4 Bedrooms"
         lblFavourite.text = "324 Favourite"
         lblReview.text = "23 Review"
-        lblTitle.text = mData?.name?.toMMFont()
-        lblDescription.text = mData?.description?.toMMFont()
+        lblTitle.text = mData.name?.toMMFont()
+        lblDescription.text = mData.description?.toMMFont()
         
     }
     
