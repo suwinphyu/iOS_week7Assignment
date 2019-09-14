@@ -20,7 +20,7 @@ class HouseModel {
         return houseModel
     }()
     
-    var houseResponse: HotelResponse = HotelResponse()
+    var houseResponse: HouseResponse = HouseResponse()
     
     func apiGetHouseList(success: @escaping ()-> Void, failure: @escaping (String)-> Void) {
         NetworkClient.shared().getData(success: { (data) in
@@ -31,7 +31,7 @@ class HouseModel {
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
                 
                 self.houseResponse = try
-                    decoder.decode(HotelResponse.self, from: data)
+                    decoder.decode(HouseResponse.self, from: data)
                 success()
             } catch let jsonErr {
                 failure(jsonErr.localizedDescription)

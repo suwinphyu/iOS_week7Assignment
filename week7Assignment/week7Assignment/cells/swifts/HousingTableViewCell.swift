@@ -21,7 +21,7 @@ class HousingTableViewCell: UITableViewCell {
     @IBOutlet weak var lblBedroom: UILabel!
     @IBOutlet weak var lblSquareFeet: UILabel!
     
-    var mData: HouseDetailVO? {
+    var mData: HouseVO? {
         didSet {
          
             let title: Int = mData?.price ?? 0

@@ -12,7 +12,6 @@
 		17B2E7A8232C92BB00045F17 /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E7A7232C92BB00045F17 /* SharedConstants.swift */; };
 		17B2E7AA232C935300045F17 /* HouseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E7A9232C935300045F17 /* HouseResponse.swift */; };
 		17B2E7AC232C93B500045F17 /* HouseVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E7AB232C93B500045F17 /* HouseVO.swift */; };
-		17B2E7AE232C941400045F17 /* HouseDetailVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E7AD232C941400045F17 /* HouseDetailVO.swift */; };
 		17B2E7B2232C949A00045F17 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E7B1232C949A00045F17 /* Router.swift */; };
 		17B2E7B4232C9BE400045F17 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E7B3232C9BE400045F17 /* BaseViewController.swift */; };
 		17B2E7B9232CB1F200045F17 /* mDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E7B8232CB1F200045F17 /* mDetect.swift */; };
@@ -45,7 +44,6 @@
 		17B2E7A7232C92BB00045F17 /* SharedConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
 		17B2E7A9232C935300045F17 /* HouseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseResponse.swift; sourceTree = "<group>"; };
 		17B2E7AB232C93B500045F17 /* HouseVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVO.swift; sourceTree = "<group>"; };
-		17B2E7AD232C941400045F17 /* HouseDetailVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailVO.swift; sourceTree = "<group>"; };
 		17B2E7B1232C949A00045F17 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		17B2E7B3232C9BE400045F17 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		17B2E7B8232CB1F200045F17 /* mDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mDetect.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				17B2E7A9232C935300045F17 /* HouseResponse.swift */,
-				17B2E7AD232C941400045F17 /* HouseDetailVO.swift */,
 			);
 			path = response;
 			sourceTree = "<group>";
@@ -393,7 +390,6 @@
 				17C93803232C081300D580EA /* ViewController.swift in Sources */,
 				17B2E7BD232CB3C000045F17 /* FavouriteViewController.swift in Sources */,
 				17B2E7BF232CB41200045F17 /* DiscoverViewController.swift in Sources */,
-				17B2E7AE232C941400045F17 /* HouseDetailVO.swift in Sources */,
 				17B2E7B4232C9BE400045F17 /* BaseViewController.swift in Sources */,
 				17B2E7A8232C92BB00045F17 /* SharedConstants.swift in Sources */,
 				17B2E7B2232C949A00045F17 /* Router.swift in Sources */,

@@ -9,7 +9,7 @@
 import Foundation
 
 class SharedConstants{
-    static let BASE_URL = "https://8c67b0eb-dff5-4aaa-a864-d700f0390d60.mock.pstmn.io/house_list"
+    static let BASE_URL = "https://d0996f53-d1ce-47ad-a628-af026825b79c.mock.pstmn.io/house_list"
     
     enum Storyboard{
         static let SB_MAIN = "Main"

@@ -9,10 +9,17 @@
 import Foundation
 import UIKit
 
-class HotelVO {
+class HouseVO {
     
-    var code: Int?
-    var message: String?
+    var id: Int?
+    var houseImageUrl: String?
+    var name: String?
+    var description: String?
+    var price: Int?
+    var address: String?
+    var squareFeet: Int?
+    var latitude: Double?
+    var longitude: Double?
     
     
 }

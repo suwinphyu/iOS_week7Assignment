@@ -8,9 +8,7 @@
 
 import Foundation
 
-struct HotelResponse : Codable{
-    var code: Int?
-    var message: String?
-    var data: [HouseDetailVO]?
+struct HouseResponse : Codable{
+    
 }
 

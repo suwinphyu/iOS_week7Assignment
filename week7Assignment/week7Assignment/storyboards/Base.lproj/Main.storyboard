@@ -113,7 +113,7 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="houseTableView" destination="gDT-2q-LZS" id="Wgd-iT-hnm"/>
-                        <segue destination="0aJ-WB-l3U" kind="show" id="DSq-Co-Jdf"/>
+                        <segue destination="0aJ-WB-l3U" kind="presentation" id="DSq-Co-Jdf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -203,6 +203,7 @@
                                             </imageView>
                                             <searchBar contentMode="redraw" searchBarStyle="prominent" translatesAutoresizingMaskIntoConstraints="NO" id="kRK-3g-LRz">
                                                 <rect key="frame" x="30" y="20" width="354" height="46"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="46" id="9up-pB-qbd"/>
                                                 </constraints>
@@ -257,7 +258,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 Review" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4m-Hx-6ZP">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4m-Hx-6ZP">
                                                                 <rect key="frame" x="210" y="138.5" width="100" height="20"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="100" id="TXn-4w-3AO"/>
@@ -307,7 +308,7 @@
                                                                     <constraint firstAttribute="height" constant="25" id="tVg-fd-Q2B"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-tracks_intersection" translatesAutoresizingMaskIntoConstraints="NO" id="RS4-7s-z8d">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-like" translatesAutoresizingMaskIntoConstraints="NO" id="RS4-7s-z8d">
                                                                 <rect key="frame" x="20" y="136" width="25" height="25"/>
                                                                 <color key="tintColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                                                 <constraints>
@@ -323,7 +324,7 @@
                                                                     <constraint firstAttribute="height" constant="25" id="eZ9-pn-653"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-tracks_intersection" translatesAutoresizingMaskIntoConstraints="NO" id="wbm-Yu-iXL">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-pencil" translatesAutoresizingMaskIntoConstraints="NO" id="wbm-Yu-iXL">
                                                                 <rect key="frame" x="170" y="136" width="25" height="25"/>
                                                                 <color key="tintColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                                                 <constraints>
@@ -461,7 +462,7 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0hU-Cx-E2g">
                                                 <rect key="frame" x="30" y="430" width="354" height="318"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">Royal Theikdi ကွန်ဒိုသည် မင်းဓမ္မလမ်း ၊ မရမ်းကုန်းမြို့နယ် တွင် တည်ရှိပါသည်။973 စတုရန်းပေကျယ်ဝန်းပါသည်။ဘုရားခန်း ၊ ဧည့်ခန်း ၊ မာစတာ (၁) ခန်း ၊ ရိုးရိုး (၁) ခန်း ၊ ရေချိုးခန်း (၂) ခန်း၊ အိမ်သာ (၂) ခန်း ၊ ထမင်းစားခန်း တို့ပါဝင်သည်။ဂရန်မြေပေါ်တွင်တည်ဆောက်ထားပြီး ကွန်ဒိုမီနီယံဥပဒေအတိုင်း မြေအချိုးကျပိုင်ဆိုင်မှုရရှိမည်။ကားပါကင် ၊ ရေကူးကန် ၊ အားကစားခန်းမ ၊ ကလေးကစားကွင်း တို့ပါဝင်သည်။Real Home ကွန်ဒိုသည်- ရန်ကုန်မြို့၏ ဒုတိယစီးပွားရေးဇုန် (2nd Central Business District) တွင်တည်ရှိပါသည်။မင်းဓမ္မလမ်း ၊ အင်းစိန်လမ်းမကြီး ၊ ပြည်လမ်းမကြီး တို့မှ လွယ်ကူလျင်မြန်စွာ ဝင်ထွက်သွားလာနိုင်ပြီး အနီးအနားတွင် ဝိတိုရိယ ဆေးရုံ ၊ MCC ခန်းမ ၊ ၉ မိုင် Ocean ၊ Junction 8 ၊ Airport တို့တည်ရှိသည်။Royal Maylikha ကွန်ဒိုတည်ဆောက်ထားသည့် Sustain Company မှ အရည်အသွေးပြည့်မီစွာ ဆောက်လုပ်ထားပြီး 40% ပြီးစီးမှ စတင်အရောင်းဖွင့်ပါသည်။ (ယခု ၃ လွှာအထိ ပြီးစီးနေပါသည်။)ဒုတိယစီးပွားရေး အချက်အချာနေရာတွင် တည်ရှိသောကြောင့် အိမ်ခြံမြေအတွက် ရင်းနှီးမြှုပ်နှံလိုပါက ရွေးချယ်ရန် အသင့်တော်ဆုံးဖြစ်ပါသည်။အနီးအနားတွင် ဝိတိုရိယဆေးရုံ ၊ 9 Mile Ocean ၊ 8 Mile Junction တို့နှင့်အနီးတွင်ဖြစ်၍ ဈေးနီး ဆေးရုံနီးဖြစ်သည်</mutableString>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -515,8 +516,8 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Single Family House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nh-WL-Wwj">
-                                                <rect key="frame" x="30" y="395" width="182" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nh-WL-Wwj">
+                                                <rect key="frame" x="30" y="395" width="40" height="24"/>
                                                 <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -524,7 +525,7 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="0hU-Cx-E2g" secondAttribute="bottom" id="40B-uV-pkB"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9nh-WL-Wwj" secondAttribute="trailing" constant="20" symbolic="YES" id="4LT-Y7-BPQ"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9nh-WL-Wwj" secondAttribute="trailing" symbolic="YES" id="4LT-Y7-BPQ"/>
                                             <constraint firstItem="VFu-Ze-jRB" firstAttribute="top" secondItem="3Dw-qw-WXn" secondAttribute="top" constant="120" id="7kC-fF-ceo"/>
                                             <constraint firstItem="n01-7u-9xW" firstAttribute="leading" secondItem="wCN-CG-RXX" secondAttribute="trailing" constant="15" id="7q7-f8-ChE"/>
                                             <constraint firstItem="n01-7u-9xW" firstAttribute="centerY" secondItem="wCN-CG-RXX" secondAttribute="centerY" id="Bo0-WH-K0y"/>
@@ -612,10 +613,12 @@
         <image name="icons8-compass" width="25" height="25"/>
         <image name="icons8-database" width="25" height="25"/>
         <image name="icons8-filled_sent" width="25" height="25"/>
+        <image name="icons8-like" width="25" height="25"/>
         <image name="icons8-like-1" width="25" height="25"/>
         <image name="icons8-love_circled" width="25" height="25"/>
         <image name="icons8-map" width="25" height="25"/>
         <image name="icons8-pause" width="25" height="25"/>
+        <image name="icons8-pencil" width="25" height="25"/>
         <image name="icons8-previous__location" width="25" height="25"/>
         <image name="icons8-tracks_intersection" width="25" height="25"/>
         <image name="icons8-visit" width="25" height="25"/>

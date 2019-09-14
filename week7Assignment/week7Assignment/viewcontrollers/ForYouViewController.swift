@@ -11,7 +11,7 @@ import UIKit
 class ForYouViewController: BaseViewController {
 
     @IBOutlet weak var houseTableView: UITableView!
-    var houseData: [HouseDetailVO]?
+    var houseData: [HouseVO]?
     
     var refreshControl = UIRefreshControl()
    
@@ -41,7 +41,8 @@ class ForYouViewController: BaseViewController {
         
         HouseModel.shared().apiGetHouseList(success: {
             self.hideProgress()
-            self.houseData = HouseModel.shared().houseResponse.data
+           // self.houseData = HouseModel.shared().houseResponse
+            //self.houseData = HouseModel.apiGetHouseList(HouseModel)
             self.houseTableView.reloadData()
             self.refreshControl.endRefreshing()
         }) { (err) in
@@ -77,14 +78,13 @@ extension ForYouViewController : UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigateToHouseDetailViewController(data: houseData?[indexPath.row])
+        navigateToHouseDetailViewController(data: houseData?[indexPath.row] ?? HouseVO())
     }
 }
 
 extension ForYouViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       // return houseData?.count ?? 0
-        return 10
+        return houseData?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -92,7 +92,7 @@ extension ForYouViewController : UITableViewDataSource {
        // cell.movie = HouseModel.shared().houseResponse.results?[indexPath.row] ?? HouseVO()
       //  cell.delegate = self
         
-      // cell.mData = houseData?[indexPath.row]
+       cell.mData = houseData?[indexPath.row]
         return cell
     }
 }
