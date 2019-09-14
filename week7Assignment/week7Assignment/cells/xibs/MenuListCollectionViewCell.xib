@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MenuListCollectionViewCell" customModule="week7Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wc5-Vj-1tk">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Collection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujg-Vt-1Gc">
+                                <rect key="frame" x="10" y="14" width="280" height="21"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ujg-Vt-1Gc" firstAttribute="top" secondItem="Wc5-Vj-1tk" secondAttribute="top" constant="14" id="60y-30-uhb"/>
+                            <constraint firstAttribute="width" constant="300" id="6xb-UT-P3J"/>
+                            <constraint firstAttribute="bottom" secondItem="Ujg-Vt-1Gc" secondAttribute="bottom" constant="14" id="JsP-nj-AAu"/>
+                            <constraint firstItem="Ujg-Vt-1Gc" firstAttribute="leading" secondItem="Wc5-Vj-1tk" secondAttribute="leading" constant="10" id="zau-c6-3Ih"/>
+                            <constraint firstAttribute="trailing" secondItem="Ujg-Vt-1Gc" secondAttribute="trailing" constant="10" id="zbo-hb-Efh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Wc5-Vj-1tk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="29o-u5-ru9"/>
+                <constraint firstAttribute="trailing" secondItem="Wc5-Vj-1tk" secondAttribute="trailing" id="8ml-M0-f3g"/>
+                <constraint firstItem="Wc5-Vj-1tk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Nqb-AZ-BaT"/>
+                <constraint firstItem="Wc5-Vj-1tk" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="dWd-a4-JXf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="166" height="49"/>
+            <connections>
+                <outlet property="lblMenuTitle" destination="Ujg-Vt-1Gc" id="Ar6-iQ-oFj"/>
+            </connections>
+            <point key="canvasLocation" x="221.73913043478262" y="129.57589285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>
